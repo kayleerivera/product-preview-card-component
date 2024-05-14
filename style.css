@@ -9,6 +9,7 @@
   --light-text: hsl(0, 0%, 0%, 70%);
   background-color: var(--background-color);
   overflow: hidden;
+  height: -webkit-fill-available;
 }
 
 /* typography */
@@ -21,16 +22,11 @@
 }
 
 /* layout */
-.html {
-  height: 100%;
-  width: 100%;
-}
-
 .body {
   padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
+  height: -webkit-fill-available;
 }
 
 .container {
@@ -116,6 +112,7 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
+  display: none;
 }
 
 .attribution a {
