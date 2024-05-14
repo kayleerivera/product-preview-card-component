@@ -14,10 +14,12 @@
 
 /* layout */
 body {
-  padding: 1rem;
+  padding: 0.5rem;
   display: grid;
   place-items: center;
   height: -webkit-fill-available;
+  height: -moz-available; /* WebKit-based browsers will ignore this. */
+  height: fill-available;
 }
 
 .container {
