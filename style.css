@@ -18,8 +18,7 @@ body {
   display: grid;
   place-items: center;
   height: -webkit-fill-available;
-  height: -moz-available; /* WebKit-based browsers will ignore this. */
-  height: fill-available;
+  height: -moz-available;
 }
 
 .container {
