@@ -12,15 +12,6 @@
   height: -webkit-fill-available;
 }
 
-/* typography */
-.title-font {
-  font-family: "Fraunces", serif;
-  font-size: 2rem;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
 /* layout */
 body {
   padding: 1rem;
@@ -139,4 +130,24 @@ button {
 
 button:hover {
   background-color: var(--dark-color);
+}
+
+/* desktop view */
+@media (min-width: 480px) {
+  .container {
+    flex-direction: row;
+    max-width: 1200px;
+    max-height: 900px;
+  }
+
+  .thumbnail {
+    height: 100%;
+    max-width: 600px;
+    object-fit: cover;
+  }
+
+  img {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
 }
