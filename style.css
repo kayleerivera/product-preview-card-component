@@ -48,7 +48,9 @@
 }
 
 picture {
-  object-fit: cover;
+  display: block;
+  height: 100%;
+  max-width: 100%;
 }
 
 .product-info {
