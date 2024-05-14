@@ -43,7 +43,8 @@
 
 .thumbnail {
   height: 40vh;
-  width: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 picture {
