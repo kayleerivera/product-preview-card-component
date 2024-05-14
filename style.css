@@ -141,12 +141,13 @@ button:hover {
   }
 
   .thumbnail {
-    height: 100%;
-    max-width: 600px;
+    height: unset;
+    max-width: unset;
     object-fit: cover;
   }
 
   img {
+    width: auto;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
   }
