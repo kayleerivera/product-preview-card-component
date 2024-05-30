@@ -37,8 +37,8 @@ body {
 
 picture {
   display: block;
-  height: 100%;
-  max-width: 100%;
+  height: inherit;
+  width: inherit;
 }
 
 img {
